@@ -1,0 +1,103 @@
+/* font-family: "IBM Plex Sans";  */
+body {text-align: center; overflow-x: hidden; }
+h1 {font-weight: 750; font-size: 4rem; color: #fff; }
+h3,h4,p {text-align: left;}
+
+
+/* nav items (links) */
+.navbar-dark .navbar-nav .nav-link {color: #fff; }
+.social-icons i {padding: 10px; color: #fff; background-color: rgba(255,255,255,0.05); border-radius: 100%; }
+
+/* Intro (first page) */
+.intro {padding-bottom: 10%; background-color: #000;}
+.intro hr {background-color: #00A650; width: 15%; height: 0.3%; margin-left: 12%; margin-top: 10%; }
+.intro h1 {padding: 5% 0; }
+.intro p {margin-left: 5%; margin-bottom: 15%; color: rgba(255,255,255,0.3); }
+.intro button {font-weight: 500; padding: 2% 12%; margin-left: -40%; }
+
+
+/* About */
+.about {background-color: #00A650; padding-top: 10%; }
+.about-head {width: 70%; margin: auto; }
+.about p {color: rgba(255,255,255,0.7); font-size: 1.5rem; line-height: 1.5; text-align: center; padding: 5%; }
+.about-features {color: #fff; text-align: left; padding: 5% 8%; }
+.about-features p {color: rgba(255,255,255,0.7); font-size: 1rem; text-align: left; line-height: 1.5; }
+.app-screen {width: 100%; }
+
+/* How the app works */
+.how h2 {font-size: 3rem; margin-top: 5%}
+/* .how-steps span {border-radius: 50%;} */
+.how-steps p {padding-top: 5%; line-height: 1.8; color: rgba(0,0,0,0.7); font-size: 1.1rem; }
+.phone-app-screens {width: 75%; }
+
+/* Features */
+.features {background-color: #f2f2f2; padding-top: 10%; }
+.features-head {width: 70%; margin: auto;}
+.features-head h1 {color: #000; font-size: 3.8rem; }
+.features-head p {color: rgba(0,0,0,0.5); font-size: 1.6rem;; line-height: 1.5; text-align: center; font-weight: 100;margin: 8% 0;}
+/* hr after the head title */
+.head-line {background-color: #00A650; width: 25%;}
+
+/* Features of Features */
+.features-features {padding-top: 5%; text-align: left;}
+.features-features i {color: #00A650;}
+.features-features p {color: rgba(0,0,0,0.6); font-size: 1.1rem; padding: 5% 0 10%;}
+/* hr after the Features of Features */
+.features-features-line {width: 50%; margin-bottom: 5%; }
+
+/* Features Testimonials */
+.features-testimonials h2 {font-size: 3rem; padding-bottom: 5%; }
+.features-testimonials .row {text-align: left}
+.features-testimonials img {width: 13%; border-radius: 50%;}
+.features-testimonials .name {color: #00A650; font-weight: bold; }
+.features-testimonials .email {color: rgba(0,0,0,0.4); font-weight: lighter; }
+.features-testimonials p {color: rgba(0,0,0,0.6); line-height: 1.7; padding: 5% 0 30%; }
+
+
+/* Pricing */
+.pricing {padding: 10% 0 15%; }
+.pricing-head {width: 65%; margin: auto;}
+.pricing-head p {text-align: center; color: rgba(0,0,0,0.5); font-size: 1.6rem; font-weight: 100; padding: 8% 0 17%; }
+.pricing h1 {color: #000; }
+
+.pricing-plans {text-align: left;}
+.pricing-plans h2 {font-size: 3.5rem; font-weight: 700; }
+.pricing-plans h2 span {font-size: 0.8rem; font-weight: 100;}
+.pricing-plans ul {margin: 15% 0;}
+.pricing-plans li {margin: 5% 0 5% -10%; font-size: 1.1rem; color: rgba(0,0,0,0.6); }
+.column1, .column2, .column3 {padding: 15%; }
+.column2 {color: #fff; background-color: #00A650; border-radius: 5px; }
+.column2 li {color: #fff;}
+.column2 span {color: rgba(255,255,255,0.5); }
+
+
+/* Download */
+.download {background-color: #00A650; padding: 10% 5% 7% 5%; text-align: left; }
+.phone-image {text-align: center;}
+.phone-image img {width: 78%;  }
+.download h2 {color: #fff;  font-size: 3rem; padding-top: 12%; }
+.download p {color: rgba(255,255,255,0.7); padding: 5% 0; font-size: 1.1rem}
+.download button {margin: 4% 2%; padding: 2% 5%;  }
+
+/* Footer */
+.footer {background-color: #121619; padding: 10% 0; }
+.footer h2 {text-align: left; font-size: 3rem; color: #00A650; margin-bottom: 3%; }
+.footer p {color: rgba(255,255,255,0.5); }
+.footer hr {background-color: rgba(255,255,255,0.1); }
+.subscribe p {font-size: 1.5rem; font-weight: 100; padding-bottom: 10%; }
+.email-group input {font-size: 1.2rem; padding: 7%; background-color: rgba(255,255,255,0.03); border: none; border-radius: 5px; }
+.email-group button {background-color: #00A650; color: #fff; }
+.stand {text-align: left; padding: 5% 0%; }
+.stand a {color: #fff; font-weight: bold; padding-right: 6%; }
+.stand a:hover {color: #00A650; text-decoration: none; }
+.footer span {color: #00A650; font-weight: bold; font-size: 1.3rem; }
+.footer .support span:hover {color: #fff; text-decoration: none; }
+.footer .support a:hover {text-decoration: none; }
+.footer .social-icons {text-align: left; }
+.heart {color: red; }
+
+
+/* @media (max-width: 1440px) {
+  .phone-image img {position: static; left: 0%; }
+  .footer {position: static;}
+} */
